@@ -1,4 +1,5 @@
 # Survey App
+Просмотр в браузере: https://kirillkarchyonkov.github.io/survey/
 
 ## Запуск проекта
 
@@ -10,14 +11,4 @@ npm install
 Запуск в режиме разработки:
 ```bash
 npm run dev
-```
-
-Сборка проекта:
-```bash
-npm run build
-```
-
-Предпросмотр сборки:
-```bash
-npm run preview
 ```
