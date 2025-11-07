@@ -1,0 +1,81 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 100%;
+}
+
+.progress-container {
+  margin-bottom: 12px;
+}
+
+.questions-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.button-next {
+  background: #6b7280;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-next:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.button-next:hover:not(:disabled) {
+  background: #4b5563;
+}
+
+.button-restart {
+  background: #4b5563;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-restart:hover {
+  background: #374151;
+}
+
+.completion {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.completion-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 12px 0;
+}
+
+.completion-text {
+  font-size: 16px;
+  color: #4b5563;
+  margin: 0;
+}
+
